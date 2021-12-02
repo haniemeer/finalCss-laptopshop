@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Roboto+Slab:wght@700&display=swap');
+*{
+   
+    padding: 0px;
+margin: 0;
+}
+
+.icon-link{
+    color: #023047
+    ;
+   font-size: 20px;
+
+}
+.icon-link:hover{
+    color:black
+    ;
+}
+.icons-nav{
+  width: 100px;
+}
+.nav{
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-inner{
+    height: 500px;
+}
+.container{
+  
+}
+.row{
+  
+    min-width: 100px;
+    min-height: 100px;
+    display:flex;
+    padding:5px 5px;
+	margin-top:20%;
+   flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+    font-family: 'Roboto Slab', monospace;
+    color: #023047;
+}
+.wrapper .button-coolhover{
+    display: inline-block;
+  
+    height: 45px;
+    width: 45px;
+   margin-right: 10px;
+   box-shadow: 0px 5px 5px #023047;
+    border-radius: 50px;
+    background-color: #F6C90E;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    float: left;
+    
+
+}
+.wrapper .price{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+ padding: 0;
+ margin-bottom: -35px;
+margin-top: 40px;
+}
+.wrapper .button-coolhover:hover{
+    width: 115px;
+}
+.wrapper .button-coolhover .icon-coolhover{
+    display: inline-block;
+    height: 45px;
+    width:40px;
+    
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 50px;
+text-align: center;
+}
+.wrapper .button-coolhover .icon-coolhover i{
+font-size: 30px;
+line-height: 50px;
+
+}
+.wrapper .button-coolhover span{
+    font-size: 15px;
+    
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+    
+
+.wrapper .button-coolhover .icon-coolhover i{
+    font-size: 15px;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+
+}
+.border{
+	width:100px;
+	height:4px;
+	background:#F6C90E
+    ;
+}
+.right-col h4{
+	font-size:40px;
+    font-family: 'Roboto Slab', monospace;
+
+	}
